@@ -1,16 +1,4 @@
-# ucp_pertama
+![image](https://github.com/Den-art023/FaseOne_050/assets/115088420/228853a6-e0a6-410e-8323-87e004320991)
+![image](https://github.com/Den-art023/FaseOne_050/assets/115088420/28eb01a3-82f2-45fb-90ed-bb323460fb81)
+![image](https://github.com/Den-art023/FaseOne_050/assets/115088420/c2f2b238-af3b-4ed9-8020-dad4e710dfb1)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
