@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ucp_pertama/screen/makanan_screen.dart';
 import 'package:ucp_pertama/widgets/footer_widget.dart';
 import 'package:ucp_pertama/widgets/form_widget.dart';
 import 'package:ucp_pertama/widgets/header_widget.dart';
@@ -26,7 +27,17 @@ class DataScreen extends StatelessWidget {
                   etNama: nama,
                   etTelp: notelp,
                   etAlamat: alamat),
-              FooterWidget(onPressedNext: () {})
+              FooterWidget(onPressedNext: () {
+                if (formkey.currentState!.validate()) {
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) =>
+                            MakanScreen(nama: nama.text, noTelp: notelp.text),
+                      ),
+                      (route) => false);
+                }
+              })
             ],
           ),
         ),

@@ -6,17 +6,12 @@ class FormMakan extends StatefulWidget {
   final TextEditingController etMinuman;
   final TextEditingController etDessert;
 
-  final String nama;
-  final String noTelp;
-
   FormMakan({
     super.key,
     required this.makankey,
     required this.etMakanan,
     required this.etMinuman,
     required this.etDessert,
-    required this.nama,
-    required this.noTelp,
   });
 
   @override
@@ -30,18 +25,6 @@ class _FormMakanState extends State<FormMakan> {
       key: widget.makankey,
       child: Column(
         children: [
-          // Display received data from the first page (optional)
-          Text(
-            "Nama: ${widget.nama}",
-            style: TextStyle(fontSize: 16),
-          ),
-          SizedBox(
-            height: 10,
-          ),
-          Text(
-            "Nomor Telepon: ${widget.noTelp}",
-            style: TextStyle(fontSize: 16),
-          ),
           SizedBox(
             height: 20,
           ),
